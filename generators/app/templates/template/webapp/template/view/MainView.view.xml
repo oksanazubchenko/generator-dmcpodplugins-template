@@ -1,0 +1,42 @@
+<mvc:View controllerName="<%= namespace %>.controller.MainView"
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:l="sap.ui.layout"
+    xmlns="sap.m">
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content>
+                        <Panel width="auto" class="sapUiResponsiveMargin">
+                            <headerToolbar>
+                                <OverflowToolbar height="3rem">
+                                    <Title text="{i18n>title}"/>
+                                </OverflowToolbar>
+                            </headerToolbar>
+                            <content>
+                                <l:BlockLayout id="BlockLayout" background="Light">
+                                    <l:BlockLayoutRow>
+ 
+                                       <l:BlockLayoutCell title="Execution Plugin Template">
+                                            <Text
+                                                id="text2"
+                                                wrappingType="Hyphenated"
+                                                text="This plugin is a template for POD Execution Plugin implementation. Implement business logic inside execute() method." />
+                                        </l:BlockLayoutCell>        
+                                         <l:BlockLayoutCell title="Asynch Execution Plugin Template">
+                                            <Text
+                                                id="text3"
+                                                wrappingType="Hyphenated"
+                                                text="This plugin is a template for Asynch POD Execution Plugin implementation. Implement business logic inside execute() method." />
+                                        </l:BlockLayoutCell>                                   
+                                    </l:BlockLayoutRow>
+                                </l:BlockLayout>
+                            </content>
+                        </Panel>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

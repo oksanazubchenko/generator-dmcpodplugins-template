@@ -1,0 +1,38 @@
+{
+	"components": [
+	 
+         {
+            "id": "<%= vendor %>AsynchExecutionPluginTemplate",
+            "type": "EXECUTION_PLUGIN",
+            "allowMultipleInstances": false,
+            "name": "<%= namespace %>.asynchExecutionPluginTemplate",
+            "propertyEditor": "<%= namespace %>.asynchExecutionPluginTemplate.builder.PropertyEditor",
+            "i18n": "<%= namespace %>.asynchExecutionPluginTemplate.i18n.i18n",
+            "productionProcessEnabled": true, 
+            "productionProcessTitle": "Asynch Execution Plugin Template",        
+            "supportedPodTypes": <%- podTypes %>
+          },
+          {
+            "id": "<%= vendor %>ExecutionPluginTemplate",
+            "type": "EXECUTION_PLUGIN",
+            "allowMultipleInstances": false,
+            "name": "<%= namespace %>.executionPluginTemplate",
+            "propertyEditor": "<%= namespace %>.executionPluginTemplate.builder.PropertyEditor",
+            "i18n": "<%= namespace %>.executionPluginTemplate.i18n.i18n",
+            "productionProcessEnabled": true, 
+            "productionProcessTitle": "Execution Plugin Template",        
+            "supportedPodTypes": <%- podTypes %>
+        },
+        {
+            "id": "<%= vendor %>ViewPluginTemplate",
+            "type": "VIEW_PLUGIN",
+            "allowMultipleInstances": false,
+            "name": "<%= namespace %>.viewPluginTemplate",
+            "propertyEditor": "<%= namespace %>.viewPluginTemplate.builder.PropertyEditor",
+            "i18n": "<%= namespace %>.viewPluginTemplate.i18n.i18n",
+            "productionProcessEnabled": false,
+            "supportedPodTypes": <%- podTypes %>
+        }
+
+	]
+}

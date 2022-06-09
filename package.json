@@ -6,7 +6,7 @@
   "author": {
     "name": "Oksana Zubchenko",
     "email": "none@none.com",
-    "url": "https://github.com/oksanazubchenko/generator-dmcepodplugins-template"
+    "url": "https://github.com/oksanazubchenko/generator-dmcpodplugins-template"
   },
   "files": [
     "generators"

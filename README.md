@@ -1,19 +1,19 @@
-# generator-dmcepodplugins-template [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-dmcpodplugins-template [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > 
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-dmcepodplugins-template using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-dmcpodplugins-template using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-dmcepodplugins-template
+npm install -g generator-dmcpodplugins-template
 ```
 
 Then generate your new project:
 
 ```bash
-yo dmcepodplugins-template
+yo dmcpodplugins-template
 ```
 
 ## Getting To Know Yeoman
@@ -28,11 +28,11 @@ yo dmcepodplugins-template
 Apache-2.0 © []()
 
 
-[npm-image]: https://badge.fury.io/js/generator-dmcepodplugins-template.svg
-[npm-url]: https://npmjs.org/package/generator-dmcepodplugins-template
-[travis-image]: https://travis-ci.com//generator-dmcepodplugins-template.svg?branch=master
-[travis-url]: https://travis-ci.com//generator-dmcepodplugins-template
-[daviddm-image]: https://david-dm.org//generator-dmcepodplugins-template.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//generator-dmcepodplugins-template
-[coveralls-image]: https://coveralls.io/repos//generator-dmcepodplugins-template/badge.svg
-[coveralls-url]: https://coveralls.io/r//generator-dmcepodplugins-template
+[npm-image]: https://badge.fury.io/js/generator-dmcpodplugins-template.svg
+[npm-url]: https://npmjs.org/package/generator-dmcpodplugins-template
+[travis-image]: https://travis-ci.com//generator-dmcpodplugins-template.svg?branch=master
+[travis-url]: https://travis-ci.com//generator-dmcpodplugins-template
+[daviddm-image]: https://david-dm.org//generator-dmcpodplugins-template.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org//generator-dmcpodplugins-template
+[coveralls-image]: https://coveralls.io/repos//generator-dmcpodplugins-template/badge.svg
+[coveralls-url]: https://coveralls.io/r//generator-dmcpodplugins-template

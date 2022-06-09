@@ -1,5 +1,5 @@
 {
-  "name": "generator-dmc-view-execution-podplugin",
+  "name": "generator-dmcpodplugins-template",
   "version": "0.0.1",
   "description": "This generator scaffolds a SAP Digital Manufacturing Cloud Execution and View POD Plugins",
   "homepage": "",

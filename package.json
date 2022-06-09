@@ -11,7 +11,7 @@
   "repository": {
   "type": "git",
   "url": "https://github.com/oksanazubchenko/generator-dmcpodplugins-template.git",
-  "directory": "packages/generator-dmcpodplugins-template"
+  "directory": "packages/dmcpodplugins-template"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

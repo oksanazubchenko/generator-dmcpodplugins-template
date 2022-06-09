@@ -8,6 +8,14 @@
     "email": "none@none.com",
     "url": "https://github.com/oksanazubchenko/generator-dmcpodplugins-template"
   },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/oksanazubchenko/generator-dmcpodplugins-template.git",
+  "directory": "packages/generator-dmcpodplugins-template"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
   "files": [
     "generators"
   ],

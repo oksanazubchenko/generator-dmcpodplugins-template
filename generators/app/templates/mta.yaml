@@ -24,16 +24,16 @@ modules:
    build-parameters:
     supported-platforms: [CF]
    requires:
-    - name: uaa_ExecutionPluginTemplateMTA
-    - name: dest_ExecutionPluginTemplateMTA
+    - name: uaa_PODPluginTemplateMTA
+    - name: dest_PODPluginTemplateMTA
 resources:
- - name: uaa_ExecutionPluginTemplateMTA
+ - name: uaa_PODPluginTemplateMTA
    parameters:
       path: ./xs-security.json
       service-plan: application
       service: xsuaa
    type: org.cloudfoundry.managed-service
- - name: dest_ExecutionPluginTemplateMTA
+ - name: dest_PODPluginTemplateMTA
    parameters:
       service-plan: lite
       service: destination

@@ -307,8 +307,8 @@ module.exports = class extends Generator {
     );
 
     this.fs.copyTpl(
-      this.templatePath('template/webapp/template/viewPluginTemplate/view/MainView.view.xml'),
-      this.destinationPath(this.props.moduleName+'/webapp/viewPluginTemplate/view/MainView.view.xml'),
+      this.templatePath('template/webapp/template/viewPluginTemplate/view/PluginView.view.xml'),
+      this.destinationPath(this.props.moduleName+'/webapp/viewPluginTemplate/view/PluginView.view.xml'),
       {name: this.props.moduleName, namespace: this.props.namespace}
     );
 
@@ -318,8 +318,8 @@ module.exports = class extends Generator {
     );
 
    this.fs.copyTpl(
-      this.templatePath('template/webapp/template/viewPluginTemplate/controller/MainView.controller.js'),
-      this.destinationPath(this.props.moduleName+'/webapp/viewPluginTemplate/controller/MainView.controller.js'),
+      this.templatePath('template/webapp/template/viewPluginTemplate/controller/PluginView.controller.js'),
+      this.destinationPath(this.props.moduleName+'/webapp/viewPluginTemplate/controller/PluginView.controller.js'),
       {name: this.props.moduleName, namespace: this.props.namespace}
     );
    

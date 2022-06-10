@@ -19,13 +19,13 @@
                                     <l:BlockLayoutRow>
                                        <l:BlockLayoutCell title="Execution Plugin Template">
                                             <Text
-                                                id="text2"
+                                                id="text1"
                                                 wrappingType="Hyphenated"
                                                 text="This plugin is a template for POD Execution Plugin implementation. Implement business logic inside execute() method." />
                                         </l:BlockLayoutCell>        
                                          <l:BlockLayoutCell title="Asynch Execution Plugin Template">
                                             <Text
-                                                id="text3"
+                                                id="text2"
                                                 wrappingType="Hyphenated"
                                                 text="This plugin is a template for Asynch POD Execution Plugin implementation. Implement business logic inside execute() method." />
                                         </l:BlockLayoutCell>  

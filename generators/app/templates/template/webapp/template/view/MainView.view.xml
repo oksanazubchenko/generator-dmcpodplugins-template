@@ -17,7 +17,6 @@
                             <content>
                                 <l:BlockLayout id="BlockLayout" background="Light">
                                     <l:BlockLayoutRow>
- 
                                        <l:BlockLayoutCell title="Execution Plugin Template">
                                             <Text
                                                 id="text2"
@@ -29,7 +28,13 @@
                                                 id="text3"
                                                 wrappingType="Hyphenated"
                                                 text="This plugin is a template for Asynch POD Execution Plugin implementation. Implement business logic inside execute() method." />
-                                        </l:BlockLayoutCell>                                   
+                                        </l:BlockLayoutCell>  
+                                        <l:BlockLayoutCell title="View Plugin Template">
+                                            <Text
+                                                id="text3"
+                                                wrappingType="Hyphenated"
+                                                text="View Plugin Template to start development with custom POD Plugin." />
+                                        </l:BlockLayoutCell>    
                                     </l:BlockLayoutRow>
                                 </l:BlockLayout>
                             </content>

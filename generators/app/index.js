@@ -35,7 +35,7 @@ module.exports = class extends Generator {
         type: 'input',
         name: 'namespace',
         message: 'What is the Application namespace?',
-        default: "vendor.ext.podplugins"
+        default: "sapdmc.ext.podplugins"
       },
       {
         type: 'confirm',
